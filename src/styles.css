@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, div, span,
+h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  background: #9edfa9;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a8356;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.btn {
+  background: rgb(6, 3, 145);
+  color: rgb(243, 240, 238);
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.btn:hover {
+  background: rgb(17, 119, 221);
+}
